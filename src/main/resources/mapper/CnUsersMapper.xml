@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cnddcm.promise.mapper.CnUsersMapper" >
+  <resultMap id="BaseResultMap" type="com.cnddcm.promise.pojo.CnUsers" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="USER_ID" property="userId" jdbcType="INTEGER" />
+    <result column="USER_NAME" property="userName" jdbcType="VARCHAR" />
+    <result column="USER_NICKNAME" property="userNickname" jdbcType="VARCHAR" />
+    <result column="USER_PICURL" property="userPicurl" jdbcType="VARCHAR" />
+    <result column="USER_EMAIL" property="userEmail" jdbcType="VARCHAR" />
+    <result column="USER_CREATED_TIME" property="userCreatedTime" jdbcType="TIMESTAMP" />
+    <result column="USER_UPDATED_BY" property="userUpdatedBy" jdbcType="VARCHAR" />
+    <result column="USER_UPDATED_TIME" property="userUpdatedTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

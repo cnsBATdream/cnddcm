@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cnddcm.promise.mapper.CnBlogsMapper" >
+  <resultMap id="BaseResultMap" type="com.cnddcm.promise.pojo.CnBlogs" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="BLOGS_ID" property="blogsId" jdbcType="VARCHAR" />
+    <result column="BLOGS_OWNERID" property="blogsOwnerid" jdbcType="VARCHAR" />
+    <result column="BLOGS_ADDRESS" property="blogsAddress" jdbcType="VARCHAR" />
+    <result column="BLOGS_TYPE" property="blogsType" jdbcType="VARCHAR" />
+    <result column="BLOGS_STATUS" property="blogsStatus" jdbcType="INTEGER" />
+    <result column="BLOGS_AUDIT" property="blogsAudit" jdbcType="INTEGER" />
+    <result column="CREATED_TIME" property="createdTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATED_BY" property="updatedBy" jdbcType="VARCHAR" />
+    <result column="UPDATED_TIME" property="updatedTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cnddcm.promise.mapper.CnUserlogsMapper" >
+  <resultMap id="BaseResultMap" type="com.cnddcm.promise.pojo.CnUserlogs" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="LOG_LOGID" property="logLogid" jdbcType="VARCHAR" />
+    <result column="LOG_USERID" property="logUserid" jdbcType="VARCHAR" />
+    <result column="LOG_USERNAME" property="logUsername" jdbcType="VARCHAR" />
+    <result column="LOG_WEEK" property="logWeek" jdbcType="VARCHAR" />
+    <result column="LOG_A_COMMIT" property="logACommit" jdbcType="INTEGER" />
+    <result column="LOG_R_COMMIT" property="logRCommit" jdbcType="INTEGER" />
+    <result column="LOG_T_COMMIT" property="logTCommit" jdbcType="INTEGER" />
+    <result column="LOG_S_COMMIT" property="logSCommit" jdbcType="INTEGER" />
+    <result column="LOG_INITTIME" property="logInittime" jdbcType="TIMESTAMP" />
+    <result column="UPDATED_BY" property="updatedBy" jdbcType="VARCHAR" />
+    <result column="UPDATED_TIME" property="updatedTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>
