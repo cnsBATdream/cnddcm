@@ -1,7 +1,8 @@
 package com.cnddcm.promise.mapper;
 
-import com.imooc.my.mapper.MyMapper;
-import com.imooc.pojo.CnAlgorithm;
+
+import com.cnddcm.promise.my.mapper.MyMapper;
+import com.cnddcm.promise.pojo.CnAlgorithm;
 
 public interface CnAlgorithmMapper extends MyMapper<CnAlgorithm> {
 }
