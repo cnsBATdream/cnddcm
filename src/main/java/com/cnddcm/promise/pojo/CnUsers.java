@@ -58,6 +58,7 @@ public class CnUsers {
 
     /**
      * 密码
+     * 用户密码数据库中使用MD5加密后存储
      */
     @Column(name = "USER_PASSWORD")
     private String userPassword;
