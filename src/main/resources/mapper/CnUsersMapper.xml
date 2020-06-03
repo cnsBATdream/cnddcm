@@ -5,13 +5,14 @@
     <!--
       WARNING - @mbg.generated
     -->
-    <id column="USER_ID" property="userId" jdbcType="INTEGER" />
-    <result column="USER_NAME" property="userName" jdbcType="VARCHAR" />
-    <result column="USER_NICKNAME" property="userNickname" jdbcType="VARCHAR" />
-    <result column="USER_PICURL" property="userPicurl" jdbcType="VARCHAR" />
-    <result column="USER_EMAIL" property="userEmail" jdbcType="VARCHAR" />
-    <result column="USER_CREATED_TIME" property="userCreatedTime" jdbcType="TIMESTAMP" />
-    <result column="USER_UPDATED_BY" property="userUpdatedBy" jdbcType="VARCHAR" />
-    <result column="USER_UPDATED_TIME" property="userUpdatedTime" jdbcType="TIMESTAMP" />
+    <id column="USER_ID" jdbcType="INTEGER" property="userId" />
+    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
+    <result column="USER_NICKNAME" jdbcType="VARCHAR" property="userNickname" />
+    <result column="USER_PICURL" jdbcType="VARCHAR" property="userPicurl" />
+    <result column="USER_EMAIL" jdbcType="VARCHAR" property="userEmail" />
+    <result column="USER_CREATED_TIME" jdbcType="TIMESTAMP" property="userCreatedTime" />
+    <result column="USER_UPDATED_BY" jdbcType="VARCHAR" property="userUpdatedBy" />
+    <result column="USER_UPDATED_TIME" jdbcType="TIMESTAMP" property="userUpdatedTime" />
+    <result column="USER_PASSWORD" jdbcType="VARCHAR" property="userPassword" />
   </resultMap>
 </mapper>
